@@ -44,7 +44,7 @@ const Header = () => {
                         </div>
                         <div>
                             <ul className="md:flex items-center text-lg font-normal hidden sm:hidden">
-                                <li onClick={() => { scrollPage("Carrer") }} className="px-2  transition duration-700 ease-in-out hover:bg-textColor"> Carrer </li>
+                                <li onClick={() => { scrollPage("Carrer") }} className="px-2  transition duration-700 ease-in-out hover:bg-textColor cursor-pointer ..."> Carrer </li>
                                 <li onClick={() => { scrollPage("Technologies") }} className="px-2  transition duration-700 ease-in-out hover:bg-textColor"> Technologies </li>
                                 <li onClick={() => { scrollPage("Github") }} className="px-2  transition duration-700 ease-in-out hover:bg-textColor"> Github </li>
                                 {/* <li className="px-2 "> 
