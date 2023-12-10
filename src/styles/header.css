@@ -1,0 +1,11 @@
+.inner-gradient-6{
+    position: absolute;
+    width: 213px;
+    height: 186px;
+    border-radius: 100%;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(var(--textColor)),to(var(--textColor))),radial-gradient(circle farthest-corner at 50% 50%,#ff0079,transparent);
+    background-image: linear-gradient(180deg,var(--textColor),var(--textColor)),radial-gradient(circle farthest-corner at 50% 50%,#ff0079,transparent);
+    opacity: .3;
+    -webkit-filter: blur(100px);
+    filter: blur(100px);
+}
