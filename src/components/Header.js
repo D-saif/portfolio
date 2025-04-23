@@ -38,7 +38,7 @@ const Header = () => {
 
                     <div className="h-28 mx-auto flex items-center font-bold text-3xl justify-between">
                         <div className="flex transition-all duration-1000 ease-in-out hover:bg-textColor hover:px-8 ">
-                            <h1>Saif </h1>
+                            <h1>Saifoun </h1>
                             <h1>Eddine</h1>
                             <h1>Dhifi.</h1>
                         </div>
